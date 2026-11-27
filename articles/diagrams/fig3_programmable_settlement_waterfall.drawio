@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" modified="2026-11-27T06:36:00.000Z" agent="YieldStack" version="24.7.17">
+  <diagram id="fig3-waterfall" name="Figure 3: Programmable Settlement &amp; Priority Waterfall">
+    <mxGraphModel dx="1280" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1160" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t3" value="Figure 3: Programmable Settlement Lifecycle &amp; Priority Repayment Waterfall (33,000L AGO @ ₦1,595/L Gantry)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#0F172A;" vertex="1" parent="1">
+          <mxGeometry x="40" y="15" width="1080" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" value="STAGE 1: RING-FENCED FBO VIRTUAL NUBAN (₦52.64M)&#xa;• Trader Equity (20%): ₦10.53M   |   • Bank LPO Line (80%): ₦42.11M&#xa;• Idle float sweeps into CBN SDF / Short-Term T-Bills (~20% floor)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=2;fontColor=#1E3A8A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="70" width="700" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="STAGE 2: GANTRY RELEASE ORACLE → DIRECT-TO-DEPOT API WIRE (₦52.64M)&#xa;• Trigger: Dangote/Depot Digital e-Waybill + Batch Certificate of Quality (&lt;50 ppm sulphur)&#xa;• Zero loan principal touches the trader's general operating account (Eliminates diversion)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#16A34A;strokeWidth=2;fontColor=#14532D;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="195" width="700" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="STAGE 3: HARDWARE TELEMETRY &amp; GATE VERIFICATION STATE MACHINE&#xa;• Day-1 Oracles: GPS Geofence Arrival + 20-Min Settling Timer + Tamper-Sealed Digital Flow Meter (33,000L)&#xa;• Fleet-Scale Oracle: Inline SG Density Validation (0.835–0.845 SG) + Plant Engineer e-Signoff" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=2;fontColor=#78350F;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="700" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" value="STAGE 4: 3-WAY ERP MATCH (PO + CoQ + Digital GRN) &amp; ATOMIC WATERFALL&#xa;Buyer Delivered Invoice @ ₦1,695/L = ₦55.94M Settled into Virtual NUBAN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F172A;strokeColor=#06B6D4;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="445" width="700" height="75" as="geometry" />
+        </mxCell>
+        <!-- Waterfall Tranches -->
+        <mxCell id="w1" value="PRIORITY 1: SENIOR DEBT SWEEP&#xa;₦42.63M → Lending Bank&#xa;(₦42.11M Principal + ₦519k 15d Interest)&#xa;Auto-Resets Revolving Credit Limit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=2;fontColor=#7F1D1D;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="575" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w2" value="PRIORITY 2: FLEET &amp; OPS SPLIT&#xa;₦1.12M → Logistics &amp; Insurance&#xa;(Bobtail Lease, GIT Insurance,&#xa;Calibration &amp; Contracted Fees)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF9C3;strokeColor=#CA8A04;strokeWidth=2;fontColor=#713F12;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="575" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w3" value="PRIORITY 3: RESIDUAL RELEASE&#xa;₦12.19M → Trader Wallet&#xa;(₦10.53M Original Equity +&#xa;~₦1.66M Net Profit Residual)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;fontColor=#14532D;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="575" width="320" height="110" as="geometry" />
+        </mxCell>
+        <!-- Edges -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#334155;strokeWidth=2;endArrow=classic;" edge="1" source="s1" target="s2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#334155;strokeWidth=2;endArrow=classic;" edge="1" source="s2" target="s3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#334155;strokeWidth=2;endArrow=classic;" edge="1" source="s3" target="s4" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#DC2626;strokeWidth=2;endArrow=classic;" edge="1" source="s4" target="w1" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#CA8A04;strokeWidth=2;endArrow=classic;" edge="1" source="s4" target="w2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#16A34A;strokeWidth=2;endArrow=classic;" edge="1" source="s4" target="w3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2026-11-27T06:36:00.000Z" agent="YieldStack" version="24.7.17">
+  <diagram id="fig1-dual-currency" name="Figure 1: Dual-Currency Perimeter &amp; 6 Pathways">
+    <mxGraphModel dx="1420" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Figure 1: Dangote Dual-Currency Settlement Perimeter &amp; 6 Financed Commercial Pathways (Nov 2026)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#0F172A;" vertex="1" parent="1">
+          <mxGeometry x="60" y="15" width="1080" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="refinery" value="DANGOTE PETROLEUM REFINERY (LFTZ)&#xa;Euro-V PMS (₦1,070/L) | AGO Diesel (₦1,595/L) | Jet A-1&#xa;4,000-Truck CNG Fleet + Lekki Single Point Mooring (SPM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F172A;strokeColor=#0284C7;strokeWidth=2;fontColor=#FFFFFF;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="65" width="520" height="80" as="geometry" />
+        </mxCell>
+        <!-- Domestic Naira Box -->
+        <mxCell id="dom_box" value="DOMESTIC NAIRA PERIMETER (NGN, Naira-for-Crude)&#xa;CBN MPR: 23.0% | DMB CRR: 45% | Merchant Bank CRR: 16%" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#F0FDF4;strokeColor=#16A34A;strokeWidth=2;fontColor=#14532D;fontSize=12;fontStyle=1;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="540" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" value="Pathway 1: Direct Bulk Off-Taker (PMS)&#xa;• 250,000L / cycle (₦267.5M) | 20% BG Margin: ₦53.5M&#xa;• Instrument: 10–14 Day Dangote BG Line + Free CNG Delivery&#xa;• 36 cycles/yr → ₦135M net/yr (~252% WC ROE)" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#FFFFFF;strokeColor=#16A34A;fontColor=#0F172A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="65" y="255" width="490" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" value="Pathway 2: Leased Retail Station (PMS)&#xa;• 45,000L / cycle (₦48.15M) | Revolving Equity: ₦12.0M&#xa;• Instrument: Bank DFF (85%–90% POS Sweep) + Consortium CNG&#xa;• 48 cycles/yr → ₦54M net/yr (124%–183% All-In Yr-1 ROE)" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#FFFFFF;strokeColor=#16A34A;fontColor=#0F172A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="65" y="395" width="490" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" value="Pathway 3: B2B Industrial AGO Peddling (Diesel)&#xa;• 33,000L / cycle (₦52.64M) | 20% LPO Equity: ₦10.53M&#xa;• Instrument: 80% LPO Finance + Invoice Discounting (IDF)&#xa;• 24 cycles/yr → ₦39.6M net/yr (177%–233% All-In Yr-1 ROE)" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#FFFFFF;strokeColor=#16A34A;fontColor=#0F172A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="65" y="535" width="490" height="115" as="geometry" />
+        </mxCell>
+        <!-- Offshore USD Box -->
+        <mxCell id="off_box" value="OFFSHORE HARD-CURRENCY PERIMETER (USD / PAPSS)&#xa;Customs-Bonded Exports (Operation Whirlwind Enforced)" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=2;fontColor=#1E3A8A;fontSize=12;fontStyle=1;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="620" y="190" width="540" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" value="Pathway 4: ECOWAS Overland Tanker Export&#xa;• 150,000L / cycle ($125k) | 20% Margin: $25,000&#xa;• Instrument: Confirmed SBLC / Afreximbank PAPSS + Form NXP&#xa;• 18 cycles/yr → $94.5k net/yr (~378% WC ROE)" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#FFFFFF;strokeColor=#2563EB;fontColor=#0F172A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="645" y="255" width="490" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" value="Pathway 5: Marine Cargo FOB Trading (Lekki SPM)&#xa;• 15,000 MT Parcel ($11.25M) | LC Fees &amp; Margin: $500k&#xa;• Instrument: Back-to-Back Irrevocable Master LC&#xa;• 8 cycles/yr → $1.44M net/yr (~288% WC ROE)" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#FFFFFF;strokeColor=#2563EB;fontColor=#0F172A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="645" y="395" width="490" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="p6" value="Pathway 6: Offshore Marine Bunkering (Gulf of Guinea)&#xa;• 1,000 MT Barge Parcel ($800k) | 20% Equity + Barge: $160k&#xa;• Instrument: CMA Stock Finance (SGS / Vallis Monitored)&#xa;• 15 cycles/yr → $330k net/yr (~206% WC ROE)" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#FFFFFF;strokeColor=#2563EB;fontColor=#0F172A;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="645" y="535" width="490" height="115" as="geometry" />
+        </mxCell>
+        <!-- Connectors -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#16A34A;strokeWidth=2;endArrow=classic;" edge="1" source="refinery" target="dom_box" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#2563EB;strokeWidth=2;endArrow=classic;" edge="1" source="refinery" target="off_box" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

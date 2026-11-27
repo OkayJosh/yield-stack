@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2026-11-27T06:36:00.000Z" agent="YieldStack" version="24.7.17">
+  <diagram id="fig2-velocity-loop" name="Figure 2: Capital Velocity &amp; Lower Gantry ROE Loop">
+    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="620" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t2" value="Figure 2: The Downstream Velocity Engine: Why Lower Gantry Prices &amp; Faster Settlement Expand ROE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#0F172A;" vertex="1" parent="1">
+          <mxGeometry x="50" y="15" width="1000" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="1. Gantry Price Cut&#xa;AGO: ₦1,800 → ₦1,595/L&#xa;PMS: ₦1,400 → ₦1,070/L" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=2;fontColor=#78350F;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="2. Lower Working-Capital Equity&#xa;20% Margin Drops 11%–24%&#xa;(AGO: ₦12M → ₦10.53M)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=2;fontColor=#1E3A8A;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="90" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="3. Bank Leverage (4x–5x)&#xa;80% LPO / IDF / DFF Line&#xa;Unlocks Full 33k–45k L Load" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#4F46E5;strokeWidth=2;fontColor=#312E81;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="90" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="4. Fixed Naira/Litre Spread&#xa;₦50/L Net (AGO) | ₦25/L Net (PMS)&#xa;Protected by Index-Plus Pricing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;fontColor=#14532D;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="310" width="250" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="5. Programmable Settlement&#xa;Compresses Cycle: 15d → 10d&#xa;24 Cycles/yr → 36 Cycles/yr" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0F172A;strokeColor=#06B6D4;strokeWidth=2;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="310" width="260" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="6. Compounding ROE Expansion&#xa;Same Equity, Zero Extra Debt&#xa;177%–233% All-In Yr-1 ROE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#15803D;strokeWidth=3;fontColor=#14532D;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="240" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Key Formula:  Annualized ROE = (Net Naira Margin/Litre × Volume × Cycles/Year) ÷ Deployed Cash Equity&#xa;Shrinking the denominator (gantry cut) + raising Cycles/Year (programmable IDF) compounds ROE from both ends." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#64748B;fontColor=#334155;fontSize=12;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="465" width="970" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#334155;strokeWidth=2;endArrow=classic;" edge="1" source="n1" target="n2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="a2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#334155;strokeWidth=2;endArrow=classic;" edge="1" source="n2" target="n3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="a3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#334155;strokeWidth=2;endArrow=classic;" edge="1" source="n3" target="n4" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="a4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#06B6D4;strokeWidth=2;endArrow=classic;" edge="1" source="n4" target="n5" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="a5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#15803D;strokeWidth=2;endArrow=classic;" edge="1" source="n5" target="n6" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="a6" value="Revolving Limit Resets" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#2563EB;strokeWidth=2;endArrow=classic;fontSize=11;fontColor=#1E40AF;" edge="1" source="n6" target="n2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
